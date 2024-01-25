@@ -8,26 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="oneinput">
+    <form id="input">
         <h2>First Number</h2>
-        <input type="text" id="numone">
-    </form>
-    <form id="twoinput">
+        <input type="text" name="numone" id="numone">
         <h2>Second Number</h2>
-        <input type="text" id="numtwo">
+        <input type="text" name="numtwo" id="numtwo">
     </form>
-    <button onclick="addClick()" id="add">addition</button>
-    <button id="sub">subtraction</button>
-    <button id="mult">multiplication</button>
-    <button id="div">division</button>
-    <button id="exp">exponent</button>
-    <button id="mod">remainder</button>
-    <button id="sin">sine</button>
-    <button id="cos">cosine</button>
-    <button id="tan">tangent</button>
-    <button id="sqrt">square root</button>
-    <button id="asin">arcsine</button>
-    <button id="acos">arccosine</button>
-    <button id="atan">arctangent</button>
+    <button onclick="addClick(this.form)" id="add">addition</button>
+    <button onclick="subClick(this.form)" id="sub">subtraction</button>
+    <button onclick="multClick(this.form)" id="mult">multiplication</button>
+    <button onclick="divClick(this.form)" id="div">division</button>
+    <button onclick="expClick(this.form)" id="exp">exponent</button>
+    <button onclick="modClick(this.form)" id="mod">remainder</button>
+    <button onclick="sinClick(this.form)" id="sin">sine</button>
+    <button onclick="cosClick(this.form)" id="cos">cosine</button>
+    <button onclick="tanClick(this.form)" id="tan">tangent</button>
+    <button onclick="sqrtClick(this.form)" id="sqrt">square root</button>
+    <button onclick="asinClick(this.form)" id="asin">arcsine</button>
+    <button onclick="acosClick(this.form)" id="acos">arccosine</button>
+    <button onclick="atanClick(this.form)" id="atan">arctangent</button>
 </body>
 </html>

@@ -20,62 +20,118 @@
 
 function addClick() {
     // document.write(`<h2>Answer</h2> ${add(num1, num2)}`)
-    var x = document.getElementById("oneinput").value;
-    var l = document.getElementById("twoinput").value;
-    let k = x + l;
+    // let input = document.getElementById("input");
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value);
+    console.log(x);
+    let l = parseInt(document.getElementById('numtwo').value);
+    console.log(l);
+    var k = x + l;
     document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-
-
-function add(num1, num2) {
-    return(num1 + num2);
+function subClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value);
+    console.log(x);
+    let l = parseInt(document.getElementById('numtwo').value);
+    console.log(l);
+    var k = x - l;
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function sub(num1, num2) {
-    return(num1 - num2);
+function multClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value);
+    console.log(x);
+    let l = parseInt(document.getElementById('numtwo').value);
+    console.log(l);
+    var k = x * l;
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function mult(num1, num2) {
-    return(num1 * num2);
+function divClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value);
+    console.log(x);
+    let l = parseInt(document.getElementById('numtwo').value);
+    console.log(l);
+    var k = x / l;
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function div(num1, num2) {
-    return(num1 / num2);
+function expClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value);
+    console.log(x);
+    let l = parseInt(document.getElementById('numtwo').value);
+    console.log(l);
+    var k = x ** l;
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function exp(num1, num2) {
-    return(num1 ^ num2);
+function modClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value);
+    console.log(x);
+    let l = parseInt(document.getElementById('numtwo').value);
+    console.log(l);
+    var k = x % l;
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function mod(num1, num2) {
-    return(num1 % num2);
+function sinClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    console.log(x);
+    var k = Math.sin(x);
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function sin(num1) {
-    return(Math.sin(num1));
+function cosClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    console.log(x);
+    var k = Math.cos(x);
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function cos(num1) {
-    return(Math.cos(num1));
+function tanClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    console.log(x);
+    var k = Math.tan(x);
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function tan(num1) {
-    return(Math.tan(num1));
+function sqrtClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    console.log(x);
+    var k = Math.sqrt(x);
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function sqroot(num1) {
-    return(Math.sqrt(num1));
+function asinClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    console.log(x);
+    var k = Math.asin(x);
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function asin(num1) {
-    return(Math.asin(num1));
+function acosClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    console.log(x);
+    var k = Math.acos(x);
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
 
-function acos(num1) {
-    return(Math.acos(num1));
-}
-
-function atan(num1) {
-    return(Math.atan(num1));
+function atanClick() {
+    console.log(input)
+    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    console.log(x);
+    var k = Math.atan(x);
+    document.write(`<h2>The Answer Is ${k}<h2>`);
 }
