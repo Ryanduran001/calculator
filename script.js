@@ -22,9 +22,9 @@ function addClick() {
     // document.write(`<h2>Answer</h2> ${add(num1, num2)}`)
     // let input = document.getElementById("input");
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value);
+    let x = parseFloat(document.getElementById('numone').value);
     console.log(x);
-    let l = parseInt(document.getElementById('numtwo').value);
+    let l = parseFloat(document.getElementById('numtwo').value);
     console.log(l);
     var k = x + l;
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -32,9 +32,9 @@ function addClick() {
 
 function subClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value);
+    let x = parseFloat(document.getElementById('numone').value);
     console.log(x);
-    let l = parseInt(document.getElementById('numtwo').value);
+    let l = parseFloat(document.getElementById('numtwo').value);
     console.log(l);
     var k = x - l;
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -42,9 +42,9 @@ function subClick() {
 
 function multClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value);
+    let x = parseFloat(document.getElementById('numone').value);
     console.log(x);
-    let l = parseInt(document.getElementById('numtwo').value);
+    let l = parseFloat(document.getElementById('numtwo').value);
     console.log(l);
     var k = x * l;
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -52,9 +52,9 @@ function multClick() {
 
 function divClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value);
+    let x = parseFloat(document.getElementById('numone').value);
     console.log(x);
-    let l = parseInt(document.getElementById('numtwo').value);
+    let l = parseFloat(document.getElementById('numtwo').value);
     console.log(l);
     var k = x / l;
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -62,9 +62,9 @@ function divClick() {
 
 function expClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value);
+    let x = parseFloat(document.getElementById('numone').value);
     console.log(x);
-    let l = parseInt(document.getElementById('numtwo').value);
+    let l = parseFloat(document.getElementById('numtwo').value);
     console.log(l);
     var k = x ** l;
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -72,9 +72,9 @@ function expClick() {
 
 function modClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value);
+    let x = parseFloat(document.getElementById('numone').value);
     console.log(x);
-    let l = parseInt(document.getElementById('numtwo').value);
+    let l = parseFloat(document.getElementById('numtwo').value);
     console.log(l);
     var k = x % l;
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -82,7 +82,7 @@ function modClick() {
 
 function sinClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    let x = parseFloat(document.getElementById('numone').value || document.getElementById('numtwo').value);
     console.log(x);
     var k = Math.sin(x);
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -90,7 +90,7 @@ function sinClick() {
 
 function cosClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    let x = parseFloat(document.getElementById('numone').value || document.getElementById('numtwo').value);
     console.log(x);
     var k = Math.cos(x);
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -98,7 +98,7 @@ function cosClick() {
 
 function tanClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    let x = parseFloat(document.getElementById('numone').value || document.getElementById('numtwo').value);
     console.log(x);
     var k = Math.tan(x);
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -106,7 +106,7 @@ function tanClick() {
 
 function sqrtClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    let x = parseFloat(document.getElementById('numone').value || document.getElementById('numtwo').value);
     console.log(x);
     var k = Math.sqrt(x);
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -114,7 +114,7 @@ function sqrtClick() {
 
 function asinClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    let x = parseFloat(document.getElementById('numone').value || document.getElementById('numtwo').value);
     console.log(x);
     var k = Math.asin(x);
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -122,7 +122,7 @@ function asinClick() {
 
 function acosClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    let x = parseFloat(document.getElementById('numone').value || document.getElementById('numtwo').value);
     console.log(x);
     var k = Math.acos(x);
     document.write(`<h2>The Answer Is ${k}<h2>`);
@@ -130,7 +130,7 @@ function acosClick() {
 
 function atanClick() {
     console.log(input)
-    let x = parseInt(document.getElementById('numone').value || document.getElementById('numtwo').value);
+    let x = parseFloat(document.getElementById('numone').value || document.getElementById('numtwo').value);
     console.log(x);
     var k = Math.atan(x);
     document.write(`<h2>The Answer Is ${k}<h2>`);
